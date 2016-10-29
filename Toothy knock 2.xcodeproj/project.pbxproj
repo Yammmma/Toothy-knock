@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA47D34A1DC316CE002CD8B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA47D3491DC316CE002CD8B7 /* AppDelegate.swift */; };
+		AA47D34C1DC316CE002CD8B7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA47D34B1DC316CE002CD8B7 /* GameScene.sks */; };
+		AA47D34E1DC316CE002CD8B7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA47D34D1DC316CE002CD8B7 /* Actions.sks */; };
+		AA47D3501DC316CE002CD8B7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA47D34F1DC316CE002CD8B7 /* GameScene.swift */; };
+		AA47D3521DC316CE002CD8B7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA47D3511DC316CE002CD8B7 /* GameViewController.swift */; };
+		AA47D3551DC316CE002CD8B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA47D3531DC316CE002CD8B7 /* Main.storyboard */; };
+		AA47D3571DC316CE002CD8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA47D3561DC316CE002CD8B7 /* Assets.xcassets */; };
+		AA47D35A1DC316CF002CD8B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA47D3581DC316CF002CD8B7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA47D3461DC316CE002CD8B7 /* Toothy knock 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toothy knock 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA47D3491DC316CE002CD8B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA47D34B1DC316CE002CD8B7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AA47D34D1DC316CE002CD8B7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AA47D34F1DC316CE002CD8B7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AA47D3511DC316CE002CD8B7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AA47D3541DC316CE002CD8B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA47D3561DC316CE002CD8B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA47D3591DC316CF002CD8B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA47D35B1DC316CF002CD8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA47D3431DC316CE002CD8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA47D33D1DC316CE002CD8B7 = {
+			isa = PBXGroup;
+			children = (
+				AA47D3481DC316CE002CD8B7 /* Toothy knock 2 */,
+				AA47D3471DC316CE002CD8B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA47D3471DC316CE002CD8B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA47D3461DC316CE002CD8B7 /* Toothy knock 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA47D3481DC316CE002CD8B7 /* Toothy knock 2 */ = {
+			isa = PBXGroup;
+			children = (
+				AA47D3491DC316CE002CD8B7 /* AppDelegate.swift */,
+				AA47D34B1DC316CE002CD8B7 /* GameScene.sks */,
+				AA47D34D1DC316CE002CD8B7 /* Actions.sks */,
+				AA47D34F1DC316CE002CD8B7 /* GameScene.swift */,
+				AA47D3511DC316CE002CD8B7 /* GameViewController.swift */,
+				AA47D3531DC316CE002CD8B7 /* Main.storyboard */,
+				AA47D3561DC316CE002CD8B7 /* Assets.xcassets */,
+				AA47D3581DC316CF002CD8B7 /* LaunchScreen.storyboard */,
+				AA47D35B1DC316CF002CD8B7 /* Info.plist */,
+			);
+			path = "Toothy knock 2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA47D3451DC316CE002CD8B7 /* Toothy knock 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA47D35E1DC316CF002CD8B7 /* Build configuration list for PBXNativeTarget "Toothy knock 2" */;
+			buildPhases = (
+				AA47D3421DC316CE002CD8B7 /* Sources */,
+				AA47D3431DC316CE002CD8B7 /* Frameworks */,
+				AA47D3441DC316CE002CD8B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toothy knock 2";
+			productName = "Toothy knock 2";
+			productReference = AA47D3461DC316CE002CD8B7 /* Toothy knock 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA47D33E1DC316CE002CD8B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Yuma Soerianto";
+				TargetAttributes = {
+					AA47D3451DC316CE002CD8B7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HVY6VB7T6Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA47D3411DC316CE002CD8B7 /* Build configuration list for PBXProject "Toothy knock 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA47D33D1DC316CE002CD8B7;
+			productRefGroup = AA47D3471DC316CE002CD8B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA47D3451DC316CE002CD8B7 /* Toothy knock 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA47D3441DC316CE002CD8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA47D3551DC316CE002CD8B7 /* Main.storyboard in Resources */,
+				AA47D34C1DC316CE002CD8B7 /* GameScene.sks in Resources */,
+				AA47D3571DC316CE002CD8B7 /* Assets.xcassets in Resources */,
+				AA47D35A1DC316CF002CD8B7 /* LaunchScreen.storyboard in Resources */,
+				AA47D34E1DC316CE002CD8B7 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA47D3421DC316CE002CD8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA47D3501DC316CE002CD8B7 /* GameScene.swift in Sources */,
+				AA47D3521DC316CE002CD8B7 /* GameViewController.swift in Sources */,
+				AA47D34A1DC316CE002CD8B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA47D3531DC316CE002CD8B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA47D3541DC316CE002CD8B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA47D3581DC316CF002CD8B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA47D3591DC316CF002CD8B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA47D35C1DC316CF002CD8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA47D35D1DC316CF002CD8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA47D35F1DC316CF002CD8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HVY6VB7T6Y;
+				INFOPLIST_FILE = "Toothy knock 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebyyuma.Toothy-knock-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA47D3601DC316CF002CD8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HVY6VB7T6Y;
+				INFOPLIST_FILE = "Toothy knock 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebyyuma.Toothy-knock-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA47D3411DC316CE002CD8B7 /* Build configuration list for PBXProject "Toothy knock 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA47D35C1DC316CF002CD8B7 /* Debug */,
+				AA47D35D1DC316CF002CD8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA47D35E1DC316CF002CD8B7 /* Build configuration list for PBXNativeTarget "Toothy knock 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA47D35F1DC316CF002CD8B7 /* Debug */,
+				AA47D3601DC316CF002CD8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA47D33E1DC316CE002CD8B7 /* Project object */;
+}
